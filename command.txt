@@ -1,0 +1,17 @@
+basic_repo
+
+git init
+
+touch index.html
+touch style.css
+
+git add .
+git commit -m "added index and style files"
+
+git remote add origin https://github.com/DerekCKalgo/basic_repo.git
+git push origin master
+
+git add index.html
+git commit -m "changed index.html"
+
+git push origin master
